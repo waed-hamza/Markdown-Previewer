@@ -1,0 +1,38 @@
+.App {
+  overflow-x: hidden;
+  background-color: #17727a8a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#editor-container {
+  margin: 30px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#editor {
+  max-width: 80%;
+  width: 630px;
+  height: 230px;
+  background-color: #17727a;
+  color: white;
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 0px;
+  outline: none;
+}
+
+#editor-header {
+  max-width: 80%;
+  width: 632px;
+  background-color: #17727a;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 0px;
+}
